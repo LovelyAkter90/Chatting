@@ -1,0 +1,43 @@
+.account {
+  width: 50%;
+  height: 500px;
+  background-color: rgb(229, 229, 239);
+  margin: 120px 0;
+  box-shadow: 3px 1px 22px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-sizing: border-box;
+}
+.acconut-info {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+}
+.profile-picture img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.profile-picture h3 {
+  text-align: center;
+}
+.account-form {
+  margin: 10px 40px !important;
+  width: 90%;
+}
+
+.setting-btn button {
+  width: 90% !important;
+  margin: 25px 34px !important;
+}

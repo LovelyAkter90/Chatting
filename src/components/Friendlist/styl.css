@@ -1,0 +1,74 @@
+.friendrequest {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 20px;
+  height: 300px;
+  background-color: rgba(238, 238, 229, 0.799);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-sizing: border-box;
+  padding: 16px;
+  overflow-y: scroll;
+}
+.friendrequest {
+  background-color: var(--primarycolor);
+}
+.friendrequest-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 10px;
+}
+.friendreqest-header h4 {
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  color: #000000;
+  font-family: 600;
+  padding-bottom: 10px;
+}
+.friendreqest-header h4 {
+  color: var(--black);
+}
+.friendrequest-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.friendrequest-wrapper:last-child {
+  border-bottom: none;
+}
+.friendrequest-name {
+  width: 40%;
+}
+.friendrequest-name h5 {
+  font-family: var(--primaryfont);
+  font-size: 16px;
+  color: var(--black);
+  font-family: 600;
+  padding-bottom: 10px;
+}
+.friendrequest-btn {
+  width: 30%;
+}
+.friendrequest-btn button {
+  width: 100%;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.friendrequest-btn button:last-child {
+  background-color: rgb(26, 158, 154);
+}
+.friendrequest-btn button {
+  background-color: var(--button);
+  color: var(--black);
+}
+.friendrequest-btn button:last-child {
+  background-color: var(--black);
+  color: var(--button);
+}

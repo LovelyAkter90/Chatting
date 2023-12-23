@@ -1,0 +1,107 @@
+.grplist {
+  background-color: rgba(238, 238, 229, 0.799);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 16px;
+  height: 330px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.grplist {
+  background-color: var(--white);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#4e2ace, #22a7ae);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#22a7ae, #4e2ace);
+}
+.grp-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.grp-item-wrapper:last-child {
+  border-bottom: none;
+}
+.grp-header2 h4 {
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  color: #000000;
+  font-family: 600;
+  padding-bottom: 10px;
+}
+.grp-header2 h4 {
+  color: var(--black);
+}
+.grp-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px !important;
+}
+.grp-creation Button {
+  background-color: #13b4ae !important;
+  color: #fff;
+  padding: 10px 12px;
+}
+.grp-creation Button {
+  background-color: var(--button) !important;
+  color: var(--black);
+}
+.grp-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.grp-content {
+  width: 40%;
+}
+.grp-content h5 {
+  font-family: var(--primaryfont);
+  font-size: 16px;
+  color: var(--black);
+  font-family: 600;
+}
+.grp-content span {
+  font-family: var(--primaryfont);
+  font-size: 12px;
+  color: var(--black);
+  font-family: 400;
+  padding-bottom: 10px;
+}
+.grp-btn {
+  width: 30%;
+}
+.grp-btn button {
+  width: 100%;
+  background-color: #5f35f5;
+  color: #fff;
+}
+
+.Creat-grp-btn {
+  margin-top: 15px !important;
+  background-color: #1c9f94 !important;
+  color: #fff;
+}
+.Creat-grp-btn {
+  background-color: var(--black);
+  color: var(--body-color);
+}

@@ -1,0 +1,103 @@
+.friend-part {
+  width: 100%;
+  height: 350px;
+  background-color: rgba(238, 238, 229, 0.799);
+  border-radius: 20px;
+  background-color: rgba(238, 238, 229, 0.799);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  padding: 20px;
+  overflow-y: auto;
+}
+.friend-part {
+  background-color: var(--primarycolor);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#4e2ace, #22a7ae);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#22a7ae, #4e2ace);
+}
+.friend-part-header h4 {
+  font-family: var(--primaryfont);
+  font-size: 20px;
+  color: #000000;
+  font-family: 600;
+  padding-bottom: 20px;
+}
+.friend-part-header h4 {
+  color: var(--black);
+}
+.friend-part-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 30px;
+  padding-bottom: 15px;
+}
+.friend-part-wrapper:last-child {
+  border-bottom: none;
+}
+.friend-part-content {
+  width: 50%;
+}
+.friend-part-content h4 {
+  font-family: var(--primaryfont);
+  font-size: 16px;
+  color: #000000;
+  font-family: 600;
+  padding-bottom: 5px;
+}
+.friend-part-content h4 {
+  color: var(--black);
+}
+.friend-part-content p {
+  font-family: var(--primaryfont);
+  font-size: 14px;
+  color: #000000;
+  font-family: 600;
+  padding-bottom: 10px;
+}
+.friend-btn {
+  width: 30%;
+}
+.friend-btn button {
+  width: 100%;
+  background-color: #5f35f5 !important;
+  color: #fff;
+  font-weight: 700;
+}
+.friend-btn button {
+  background-color: var(--button) !important;
+}
+.friend-btn button:last-child {
+  width: 100%;
+  background-color: #22a7ae !important;
+  color: #fff;
+  margin-top: 6px;
+}
+.friend-btn button:last-child {
+  background-color: var(--black) !important;
+  color: var(--button) !important;
+}
+.friend-part-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

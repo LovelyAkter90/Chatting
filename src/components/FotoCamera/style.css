@@ -1,0 +1,14 @@
+.capture-image {
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  top: -160px;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  overflow: hidden;
+}

@@ -1,0 +1,111 @@
+.upload-box {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  height: 75vh !important;
+  background-color: #ffffffcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-box h4 {
+  text-align: center;
+  font-family: var(--secodaryfont);
+  color: rgb(16, 5, 70);
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.upload-icon {
+  text-align: center !important;
+}
+.upload-icon svg {
+  color: rgb(41, 41, 148);
+  text-align: center;
+  margin-bottom: 7px;
+  width: 23px;
+  height: 23px;
+}
+.crop-box {
+  width: 400px !important;
+  background-color: #ffff;
+  height: 85vh !important;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  border-radius: 5px;
+}
+
+.crop-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-bottom: 1px solid #6c696989;
+}
+.crop-header {
+  width: 85% !important;
+  margin-left: 30px;
+}
+.crop-header h4 {
+  text-align: center;
+  font-family: var(--secodaryfont);
+  color: rgb(63, 37, 196);
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.close-icon {
+  width: 15% !important;
+}
+.close-icon svg {
+  fill: #486ed7;
+}
+.image-crop {
+  background: #ffff !important;
+  margin-top: 20px !important;
+  height: 360px !important;
+  width: 100% !important;
+}
+.image-crop img {
+  width: 100% !important;
+  height: 360px !important;
+}
+
+.upload-btn {
+  text-align: center !important;
+  margin-top: 20px;
+}
+.upload-btn Button {
+  background-color: #7086c2;
+  cursor: pointer;
+}
+.img-preview {
+  margin: 0 auto !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.img-preview img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 auto !important;
+  margin-top: 10px !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+}
+.cropper-modal {
+  background-color: #ffff !important;
+}

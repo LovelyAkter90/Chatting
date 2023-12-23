@@ -1,0 +1,8 @@
+.theme-part {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--white);
+  box-sizing: border-box;
+  box-shadow: 3px 1px 22px 0px rgba(0, 0, 0, 0.219);
+  text-align: right;
+}

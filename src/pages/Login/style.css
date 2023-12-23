@@ -1,0 +1,137 @@
+.password {
+  position: relative;
+}
+.login-left {
+  margin-left: 60px;
+}
+
+.login-header h2 {
+  font-family: var(--secodaryfont);
+  font-size: 34px;
+  color: var(--titlescolor);
+  font-weight: 700px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.eyes-login {
+  position: absolute;
+  top: 30%;
+  right: 6%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  cursor: pointer;
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  color: var(--black);
+}
+.avatar img {
+  width: 25% !important;
+
+  margin-bottom: 20px;
+}
+.avatar {
+  text-align: center;
+}
+
+.links-log {
+  text-align: center;
+  width: 100%;
+}
+.links-log p {
+  font-family: var(--rarefont);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--secodarycolor);
+  margin-top: 15px;
+}
+.links-log p a {
+  color: #ea6c00;
+}
+.errors-log {
+  color: #c36b1e;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: start;
+  margin-left: 90px;
+}
+.auth-pic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login-auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.auth-text {
+  font-family: var(--secodaryfont);
+  color: var(--titlescolor);
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.auth-pic img {
+  width: 20px;
+}
+
+.login-input-design {
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+.login-input-design input {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: var(--black) !important;
+}
+.authentication {
+  border: 1px solid #03014c;
+  width: 200px;
+  padding: 6px 25px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  margin: 34px 16px;
+  cursor: pointer;
+}
+.authentication {
+  border: 1px solid var(--black);
+}
+.login-buttons {
+  width: 100% !important;
+  padding: 12px 10px !important;
+  border-radius: 50px !important;
+  background-color: var(--primarycolor) !important;
+  font-family: var(--secondary-font) !important;
+}
+
+.forget-link a {
+  margin-top: 20px;
+  font-family: var(--secodaryfont);
+  color: #c36b1e;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+.forget-link a:hover {
+  border-bottom: 1px solid #c36b1e;
+  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--black) !important;
+}
